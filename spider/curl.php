@@ -9,26 +9,23 @@ require_once './function.php';
 class Curl {
 
 	private static $cookie_arr = array(
-		'__utma' => '51854390.847096722.1463637721.1464335701.1464340069.13',
-		'__utmb' => '51854390.26.10.1464340069',
+		'__utma' => '51854390.213673896.1474875878.1474875878.1474875878.1',
+		'__utmb' => '51854390.26.10.1474875878',
 		'__utmc' => '51854390',
-		'__utmv' => '51854390.100-1|2=registration_date=20141017=1^3=entry_date=20141017=1',
-		'__utmz' => '51854390.1464168187.9.3.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided)',
-		'_xsrf' => 'adcfcf915f4506927b88d87646016dc2',
-		'_za' => 'a2889ef9-c598-4e96-8ab5-9ca0a9f42e7e',
-		'_zap' => '06c40d9b-e783-45c3-875b-b5def3690777',
-		'_zap' => '9349f159-e616-4d41-9799-11ee42b5c5eb',
-		'cap_id' => '"Y2ExNDNlMjU1MTk4NDRlYTgyMGZkMjc0NDBhNzliNTg=|1461919186|0dc2691feec234e052506642d742b21eb59be6e4"',
-		'd_c0' => '"AGAAuXZTsAmPTiftYaWT02M1JeAkw0ewo9w=|1459231862"',
-		'l_cap_id' => '"ZDI4ZjAzMTA3ODIxNGZmMWE3MmVlN2Q5OWMzYjhhZjY=|1461919186|84a64a2066181bd12069ecf4719366ac226e5da8"',
-		'l_n_c' => '1',
-		'login' => '"YjdjZjBmMmVlNTc1NDNlOGIxZDU5Yjg4MjhkZjJmZjU=|1461919194|a1cb43545b786305147c7c19b7b85111f810b4a5"',
-		'q_c1' => '21fd5f4d6c3541aa873163af7517ab8d|1461908846000|1459231862000',
-		's-i' => '6',
-		's-q' => '%E6%85%A2%E6%80%A7%E8%83%83%E7%82%8E',
-		's-t' => 'autocomplete',
-		'sid' => 'e63rlk6q',
-		'z_c0' => 'Mi4wQUFEQTRZbzZBQUFBWUFDNWRsT3dDUmNBQUFCaEFsVk4ycXBLVndCRktqRFFudXVaRzFyV3g1dUUwdkhsQ19UaEp3|1461919194|141c3c517d5be5e1e205e233f0d18c1f832a3806'
+		'__utmt' => '1',
+		'__utmv' => '51854390.100--|2=registration_date=20160913=1^3=entry_date=20160913=1',
+		'__utmz' => '51854390.1474875878.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+		'_xsrf' => '5a824704e243f6a1d04281da10beaa30',
+		'_za' => '2721444d-4c33-4089-ac1e-4943955d8762',
+		'_zap' => '06509698-1385-4342-838a-e021575927ce',
+		'a_t' => '"2.0AGAAAxdqiAoXAAAAIWEQWABgAAMXaogKAFDAXKVwmQoXAAAAYQJVTfVeEFgA54mTO_p4lASC6vpuD7mn5klhE1o0ZqNam0EccxFdmRjZRaLnYCOmdQ=="',
+		'cap_id' => '"ZGUyNDU4MzU5YzY0NDk1NWJjY2VhMWFmYzhkZjFkMWE=|1474875876|087469976b8e87bcdc73d962afa41b3165dc3a03"',
+		'd_c0' => '"AFDAXKVwmQqPToxbUuOVh6HHbCCY4gV5ECg=|1474875877"',
+		'l_cap_id' => '"YmQ3MzhkZTY5MTM4NGNlNDgwMzliY2EyMTA1NTMxMWY=|1474875876|a83a09f157b04f2ed595c17cd07bb3492e38efdf"',
+		'login' => '"NWEwYWVjY2MwODE3NDQwNmE4M2VlZDA5MzRlZGQ1OTg=|1474875893|7626f70d868501b97d73baf09b03b599f0b81f72"',
+		'n_c' => '1',
+		'q_c1' => '7a586da7161846458283ae7a7ac0b535|1474875877000|1474875877000',
+		'z_c0' => 'Mi4wQUdBQUF4ZHFpQW9BVU1CY3BYQ1pDaGNBQUFCaEFsVk45VjRRV0FEbmlaTTctbmlVQklMcS1tNFB1YWZtU1dFVFdn|1474876449|fb2de7fa429509c0277c6ee15d4f58c8e062c49a',
 	);
 
 	private static function genCookie() {
@@ -39,7 +36,6 @@ class Curl {
 			else
 				$cookie .= $key . '=' . $value;
 		}
-
 		return $cookie;
 	}
 
@@ -54,8 +50,8 @@ class Curl {
 	{
 		$ch = curl_init($url);
 		curl_setopt($ch, CURLOPT_HEADER, 0);
-		curl_setopt($ch, CURLOPT_COOKIE, self::genCookie());
-		curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.130 Safari/537.36');
+		curl_setopt($ch, CURLOPT_COOKIE, self::genCookie());  // Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36
+		curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36');
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 		curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
 		curl_setopt($ch, CURLOPT_TIMEOUT, 10);
@@ -65,6 +61,20 @@ class Curl {
 			curl_setopt($ch, CURLOPT_POSTFIELDS, $fields);
 		}
 		$result = curl_exec($ch);
+		$err = curl_error($ch);
+
+		if (false === $result || !empty($err)) {
+			$Errno = curl_errno($ch);
+			$Info = curl_getinfo($ch);
+			curl_close($ch);
+			return array(
+				'result' => false,
+				'errno' => $Errno,
+				'msg' => $err,
+				'info' => $Info,
+			);
+		}
+
 		return $result;
 	}
 

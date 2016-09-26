@@ -7,13 +7,13 @@
  */
 return array(
     'mysql' => array(
-        'host' => '127.0.0.1',
+        'host' => '192.168.20.107',
         'port' => 3306,
         'username' => 'root',
-        'password' => 'root',
+        'password' => '123456',
         'dbname' => 'zhihu',
         'charset' => 'utf8',
-        'dsn' => 'mysql:host=127.0.0.1;port=3306;dbname=zhihu',
+        'dsn' => 'mysql:host=192.168.20.107;port=3306;dbname=zhihu',
         'tbl_prefix' => 'zh_',
         'option' => array(
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,

@@ -55,7 +55,6 @@ while (1)
 			{
 				saveUserInfo($tmp_u_id);
 				$user_info = User::info($tmp_u_id);
-
 				$user_followees_count = $tmp_redis->hget($tmp_u_id, 'followees_count');
 				$user_followers_count = $tmp_redis->hget($tmp_u_id, 'followers_count');
 				
