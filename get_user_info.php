@@ -18,7 +18,7 @@ $redis = PRedis::getInstance();
 $redis->flushdb();
 if ($redis->llen('request_queue') == 0)
 {
-	$redis->lpush('request_queue', 'hector-hu');
+	$redis->lpush('request_queue', 'jiudigege');
 }
 //最大进程数
 $max_connect = 2;
@@ -111,7 +111,7 @@ while (1)
 			}
 			exit($i);
 		}
-		usleep(1);
+		usleep(100);
 	}
 	while (pcntl_waitpid(0, $status) != -1)
 	{
