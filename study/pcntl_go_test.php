@@ -13,7 +13,7 @@ function beep($process_name) {
     sleep(1);
 }
 
-declare(ticks = 1);
+ // declare(ticks = 1);
 pcntl_signal(SIGCHLD, "garbage");
 echo "全局父进程开始, pid :" . getmypid() . " \n";
 for ($i = 0; $i < 3; ++$i) {
@@ -30,8 +30,13 @@ for ($i = 0; $i < 3; ++$i) {
         for ($j = 0; $j < 5; ++$j) {
             beep("子进程" . getmypid());
         }
-        exit; // 释放子进程
+        exit(0); // 释放子进程
     }
+}
+
+pcntl_signal_dispatch();
+while(1) {
+    sleep(5);
 }
 
 function garbage($signal) {
