@@ -12,8 +12,8 @@ $result = Curl::request('GET', 'https://www.dianrong.com/market');
 
 preg_match('#<span class="education item" title=["|\'](.*?)["|\']>#', $result, $out);
 
-preg_match('#<p class="title">\s(.*?)\s</span>#', $result, $out);
+preg_match('#<p class="title">\s*(.*?)\s*</p>#', $result, $out);
 
-var_dump($out);die;
+var_dump($out[1]);die;
 
 $re = push_log([$result]);
