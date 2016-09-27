@@ -34,9 +34,10 @@ for ($i = 0; $i < 3; ++$i) {
     }
 }
 
-pcntl_signal_dispatch();
+
 while(1) {
     sleep(5);
+    pcntl_signal_dispatch();
 }
 
 function garbage($signal) {
