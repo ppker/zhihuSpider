@@ -8,7 +8,7 @@
 require_once './function.php';
 class Curl {
 
-	private static $cookie_arr = array(
+	/*private static $cookie_arr = array(
 		'__utma' => '51854390.213673896.1474875878.1474875878.1474875878.1',
 		'__utmb' => '51854390.26.10.1474875878',
 		'__utmc' => '51854390',
@@ -26,7 +26,31 @@ class Curl {
 		'n_c' => '1',
 		'q_c1' => '7a586da7161846458283ae7a7ac0b535|1474875877000|1474875877000',
 		'z_c0' => 'Mi4wQUdBQUF4ZHFpQW9BVU1CY3BYQ1pDaGNBQUFCaEFsVk45VjRRV0FEbmlaTTctbmlVQklMcS1tNFB1YWZtU1dFVFdn|1474876449|fb2de7fa429509c0277c6ee15d4f58c8e062c49a',
-	);
+	);*/
+
+
+	// 点融网
+	private static $cookie_arr = [
+		'JSESSIONID' => '1CC7D21632DC34716AC8092AF150DA12',
+		'WA_TO' => '%2Fresource%2Fstatic%2Fdirectives%2Fui%2Fsl-scheduler',
+		'__jsluid' => '4214416fac896da0aa932b4127327ad3',
+		'_af_init' => '297e6bce3b0e9efcf639dda58e3a4a2f',
+		'dsessionid' => '0c5b1d4f6091e45acfbdd8fc2e7d1619b70e430d',
+		'fasession' => '898b5b3762cde6430c6054fa84147b6653f1ffcc',
+		'gr_session_id_a20c274701ec9918' => '56b66296-0234-4b5f-bf51-15dbd37243ae',
+		'gr_user_id' => '8837cc14-93e1-406f-b1e5-ea5a322d3984',
+		'nsession' => 'b71f2d71e22b07a8926cc9d45f20234005dc5882',
+		'nsession2' => '9a4deaf92692b45012612111c596134bbbade150',
+		'xsessionid' => '8fda3333aef4e12ef2a2876f1af0739b7377c541'
+	];
+
+
+
+
+
+
+
+
 
 	private static function genCookie() {
 		$cookie = '';

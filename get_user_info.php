@@ -15,7 +15,7 @@ require_once './spider/predis.php';
 require_once './spider/log.php';
 //redis instance
 $redis = PRedis::getInstance();
-$redis->flushdb();
+$redis->flushdb(); // 清空当前数据库中的所有键
 if ($redis->llen('request_queue') == 0)
 {
 	$redis->lpush('request_queue', 'jiudigege');
@@ -45,12 +45,12 @@ while (1)
 			echo "--------fork child process failed--------\n";
 			exit(0);
 		}
-		if (!$pid)
+		if (!$pid) // 子进程的逻辑
 		{
 			$startTime = microtime();
 			$tmp_redis = PRedis::getInstance();
 			$tmp_u_id = $tmp_redis->lpop('request_queue');
-			$tmp_size = $tmp_redis->zscore('already_get_queue', $tmp_u_id);
+			$tmp_size = $tmp_redis->zscore('already_get_queue', $tmp_u_id); // 是否有次数
 			if (empty($tmp_size))
 			{
 				saveUserInfo($tmp_u_id);
@@ -60,7 +60,7 @@ while (1)
 				
 				if ($user_info['followees_count'] != $user_followees_count)
 				{
-					updateUserInfo($tmp_u_id);
+					updateUserInfo($tmp_u_id); // 更新用户信息
 					echo "--------start getting {$tmp_u_id}'s " . $user_info['followees_count'] . " followees user list--------\n";
 					$followee_users = getUserList($tmp_u_id, 'followees', $user_info['followees_count'], 1);
 

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/get_user_info.php" line="55" mnemonic="1" />
+    <bookmark url="file://$PROJECT_DIR$/get_user_info.php" line="64" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdb4e0ec-fd85-454e-9ab7-494fb71aeef1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/study/pcntl_go_test.php" afterPath="$PROJECT_DIR$/study/pcntl_go_test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/get_user_info.php" afterPath="$PROJECT_DIR$/get_user_info.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spider/curl.php" afterPath="$PROJECT_DIR$/spider/curl.php" />
     </list>
     <ignored path="zhihuSpider.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +31,8 @@
       <file leaf-file-name="get_user_info.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/get_user_info.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.84375">
-              <caret line="37" column="70" selection-start-line="37" selection-start-column="70" selection-end-line="37" selection-end-column="70" />
+            <state vertical-scroll-proportion="-8.59375">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="33" />
               <folding>
                 <element signature="e#6#145#0#PHP" expanded="true" />
               </folding>
@@ -42,43 +43,21 @@
       <file leaf-file-name="test.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.71875">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state vertical-scroll-proportion="-10.9375">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pcntl_go_test.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/study/pcntl_go_test.php">
+      <file leaf-file-name="get_dianrong.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/get_dianrong.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.717833">
-              <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.31038374">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding>
                 <element signature="e#6#98#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pcntl_test.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study/pcntl_test.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.40625">
-              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-              <folding>
-                <element signature="e#6#98#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider/log.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-66.15625">
-              <caret line="135" column="37" selection-start-line="135" selection-start-column="37" selection-end-line="135" selection-end-column="37" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -86,8 +65,8 @@
       <file leaf-file-name="curl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spider/curl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.78125">
-              <caret line="56" column="46" selection-start-line="56" selection-start-column="46" selection-end-line="56" selection-end-column="46" />
+            <state vertical-scroll-proportion="-6.59375">
+              <caret line="72" column="68" selection-start-line="72" selection-start-column="68" selection-end-line="72" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -96,8 +75,8 @@
       <file leaf-file-name="function.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/function.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-250.78125">
-              <caret line="326" column="16" selection-start-line="326" selection-start-column="16" selection-end-line="326" selection-end-column="16" />
+            <state vertical-scroll-proportion="51.71875">
+              <caret line="201" column="9" selection-start-line="201" selection-start-column="9" selection-end-line="201" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -106,8 +85,8 @@
       <file leaf-file-name="user.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spider/user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.21875">
-              <caret line="69" column="27" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
+            <state vertical-scroll-proportion="-4.875">
+              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -121,11 +100,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spider/curl.php" />
         <option value="$PROJECT_DIR$/test.php" />
-        <option value="$PROJECT_DIR$/get_user_info.php" />
         <option value="$PROJECT_DIR$/study/pcntl_test.php" />
         <option value="$PROJECT_DIR$/study/pcntl_go_test.php" />
+        <option value="$PROJECT_DIR$/get_user_info.php" />
+        <option value="$PROJECT_DIR$/spider/curl.php" />
+        <option value="$PROJECT_DIR$/get_dianrong.php" />
       </list>
     </option>
   </component>
@@ -194,7 +174,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="study" />
+              <option name="myItemId" value="spider" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -251,7 +231,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.203125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.203125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -269,25 +249,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.203125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -354,59 +315,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider/user.php">
+    <entry file="file://$PROJECT_DIR$/study/pcntl_go_test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.21875">
-          <caret line="69" column="27" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/function.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-250.78125">
-          <caret line="326" column="16" selection-start-line="326" selection-start-column="16" selection-end-line="326" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/curl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.78125">
-          <caret line="56" column="46" selection-start-line="56" selection-start-column="46" selection-end-line="56" selection-end-column="46" />
-          <folding />
+        <state vertical-scroll-proportion="0.49209931">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#98#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spider/log.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-66.15625">
+        <state vertical-scroll-proportion="2.3893905">
           <caret line="135" column="37" selection-start-line="135" selection-start-column="37" selection-end-line="135" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/get_user_info.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.84375">
-          <caret line="37" column="70" selection-start-line="37" selection-start-column="70" selection-end-line="37" selection-end-column="70" />
-          <folding>
-            <element signature="e#6#145#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.71875">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/study/pcntl_test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.40625">
+        <state vertical-scroll-proportion="0.5925508">
           <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
           <folding>
             <element signature="e#6#98#0#PHP" expanded="true" />
@@ -414,10 +343,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study/pcntl_go_test.php">
+    <entry file="file://$PROJECT_DIR$/function.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.717833">
-          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+        <state vertical-scroll-proportion="51.71875">
+          <caret line="201" column="9" selection-start-line="201" selection-start-column="9" selection-end-line="201" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.875">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.9375">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_user_info.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.59375">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="e#6#145#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/curl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.59375">
+          <caret line="72" column="68" selection-start-line="72" selection-start-column="68" selection-end-line="72" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_dianrong.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31038374">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding>
             <element signature="e#6#98#0#PHP" expanded="true" />
           </folding>
