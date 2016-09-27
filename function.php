@@ -357,3 +357,19 @@ function updateUserInfo($tmp_u_id)
 	User::update($current_user, $tmp_u_id);
 	echo "--------update {$tmp_u_id} info done--------\n";
 }
+
+
+
+
+function push_log($data = array()) {
+
+	$path = "/tmp/";
+// $path = "C:\\logs\\";
+	@chmod($path, 0777);
+	$write_path = $path . "dianrong.md";
+	$data = var_export($data, true);
+	$c =  file_put_contents($write_path, $data . "\r", FILE_APPEND);
+//echo $c . "==========";
+	echo "ok";
+	return;
+}
