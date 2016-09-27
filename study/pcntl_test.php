@@ -21,6 +21,8 @@ for ($i = 0; $i < 3; ++$i) {
         die("cannot forn son proces");
     } elseif (0 < $pid) {
         echo "父进程 执行 \n";
+        pcntl_wait($status);
+        echo "结束的子进程PID " . $status . " \n";
         for ($k = 0; $k < 2; ++$k) {
             beep("父进程");
         }
