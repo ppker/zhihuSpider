@@ -78,6 +78,7 @@ class Curl {
 		curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36');
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 		curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+		curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 3); // 等待时间
 		curl_setopt($ch, CURLOPT_TIMEOUT, 10);
 		if ($method === 'POST')
 		{

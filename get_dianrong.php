@@ -14,6 +14,8 @@ preg_match('#<span class="education item" title=["|\'](.*?)["|\']>#', $result, $
 
 preg_match('#<p class="title">\s*(.*?)\s*</p>#', $result, $out);
 
+
+// <p class="secondary-text">累计投资(元)</p>
 var_dump($out[1]);die;
 
 $re = push_log([$result]);
